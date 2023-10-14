@@ -12,13 +12,13 @@ pipeline {
             steps {
                 echo "Deploying for now"
 
-                }
             }
-
-
-
         }
+
+
+
     }
+    
     post { 
         always { 
             echo 'cleaning the workspace'
