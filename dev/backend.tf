@@ -1,5 +1,5 @@
     bucket   = "roboshop1-remote-state"
-    key = "catalogue-dev-deploy2"
+    key = "catalogue-dev"
     region = "us-east-1"
     dynamodb_table = "roboshop-state-lock"
 
