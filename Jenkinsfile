@@ -22,7 +22,7 @@ pipeline {
             steps{
                 sh """
                 cd terraform
-                terraform init -backend-config=dev/backend.tf -reconfigure
+                terraform init -backend-config=../dev/backend.tf -reconfigure
                 """
             }
         }
