@@ -2,7 +2,7 @@ project_name = "roboshop"
 env = "dev"
 common_tags = {
     Project = "roboshop"
-    Component = "catalogue"
+    component = "catalogue"
     Environment = "DEV"
     Terraform = "true"
 }
